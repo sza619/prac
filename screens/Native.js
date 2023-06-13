@@ -1,9 +1,9 @@
 import React from 'react';
-import { StyleSheet, View, SafeAreaView, Image } from 'react-native';
-import Navbar from "../components/Nav";
-import Main from '../components/Main';
+import { StyleSheet, View, SafeAreaView } from 'react-native';
+import Navbar from "../components/Navv";
+import Main from '../components/Mainn';
 
-const Home = () => {
+const Native = () => {
     return (
         <SafeAreaView>
             <View>
@@ -14,6 +14,6 @@ const Home = () => {
     );
 }
 
-export default Home
+export default Native
 
 const styles = StyleSheet.create({});

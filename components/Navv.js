@@ -6,9 +6,9 @@ import tw from "tailwind-react-native-classnames";
 const data = [
     {
         id: "123",
-        title: "ReactFacts",
-        button: "React Native",
-        screen: "Native"
+        title: "ReactNativeFacts",
+        button: "React",
+        screen: "Home"
     },
 ]
 
@@ -20,7 +20,7 @@ const Navbar = () => {
             data={data}
             keyExtractor={(item) => item.id}
             horizontal
-            style={{ backgroundColor: '#21222A', width: '100vw', display: 'flex' }}
+            style={{ backgroundColor: '#00607a', width: '100vw', display: 'flex' }}
             renderItem={({ item }) => (
                 <View style={tw`flex flex-row items-center p-5 w-96`}>
                     <Image
